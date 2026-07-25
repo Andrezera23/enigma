@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>⠀</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="styles.css">
+
+</head>
+
+
+<body>
+
+
+<canvas id="matrix"></canvas>
+
+
+<img src="img/ponto_interrogacao_flutuante.gif" class="gif-esquerda">
+
+<img src="img/ponto_interrogacao_flutuante.gif" class="gif-direita">
+
+
+
+<main class="container">
+
+
+<section id="inicio">
+
+
+<h1>
+MISSÃO SUPER SECRETA
+</h1>
+
+
+<p class="descricao">
+
+Bem-vindos, agentes.
+
+<br><br>
+
+A missão de vocês é descobrir qual é o verdadeiro tesouro.
+
+<br><br>
+
+Durante o percurso vocês encontrarão pistas, passagens bíblicas e enigmas.
+
+<br><br>
+
+Apenas quem resolver todas as etapas chegará ao final.
+
+</p>
+
+
+
+<p class="descricao">
+
+Selecione sua equipe para iniciar:
+
+</p>
+
+
+
+<div class="equipes">
+
+<button class="btnEquipe" data-equipe="1">
+EQUIPE 1
+</button>
+
+
+<button class="btnEquipe" data-equipe="2">
+EQUIPE 2
+</button>
+
+
+<button class="btnEquipe" data-equipe="3">
+EQUIPE 3
+</button>
+
+
+</div>
+
+
+</section>
+
+
+
+
+<section id="jogo" style="display:none;">
+
+
+<h2 id="tituloLocal">
+📍 Local
+</h2>
+
+
+<p id="textoEnigma">
+
+</p>
+
+
+
+<input 
+id="inputResposta"
+type="text"
+placeholder="Digite sua resposta">
+
+
+<button id="btnResponder">
+
+RESPONDER
+
+</button>
+
+
+</section>
+
+
+
+
+
+<section id="fim" style="display:none;">
+
+
+<h1>
+MISSÃO CONCLUÍDA
+</h1>
+
+
+<p>
+
+Parabéns!
+
+<br><br>
+
+Vocês completaram todas as etapas.
+
+<br><br>
+
+Agora retornem para a Capela.
+
+<br><br>
+
+O verdadeiro tesouro espera por vocês.
+
+</p>
+
+
+</section>
+
+
+</main>
+
+
+
+<script src="script.js" defer></script>
+
+
+</body>
+
+</html>
